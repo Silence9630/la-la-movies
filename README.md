@@ -33,7 +33,9 @@ project-root/
         ├── index.html
         └── package.json
     .env
+    package.json
     README.md
+    pnpm_lock.yaml
     
 
 🛠 Tech Stack
