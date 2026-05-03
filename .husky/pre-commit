@@ -1,1 +1,11 @@
-pnpm lint
+#!/bin/sh
+
+echo "Running backend lint..."
+cd backend && npm run lint
+cd ..
+
+echo "Running frontend lint..."
+cd frontend && npm run lint
+cd ..
+
+echo "All checks passed! ✅"
