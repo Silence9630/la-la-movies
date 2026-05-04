@@ -266,6 +266,8 @@ function StepOTP({ email, onNext, onBack }: { email: string; onNext: () => void;
                 {digits.map((d, i) => (
                     <input
                         key={i}
+                        aria-label={`OTP digit ${i + 1} of 6`}
+                        autoComplete={i === 0 ? "one-time-code" : "off"}
                         ref={(el) => { refs.current[i] = el; }}
                         type="text"
                         inputMode="numeric"
