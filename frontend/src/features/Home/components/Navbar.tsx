@@ -91,7 +91,7 @@ export const Navbar = () => {
 
           <Link
             to="/Auth/signin"
-            className="absolute left-345 flex items-center gap-2 text-primary font-bold text-xs uppercase tracking-widest hover:brightness-125 transition-all">
+            className="absolute right-0 flex items-center gap-2 text-primary font-bold text-xs uppercase tracking-widest hover:brightness-125 transition-all">
             <User size={16} /> Portal
           </Link>
         </div>
